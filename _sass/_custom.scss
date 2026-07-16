@@ -1,0 +1,55 @@
+/* ==========================================================================
+   CUSTOM — minimal identity overrides
+   ========================================================================== */
+
+body {
+  line-height: 1.65;
+}
+
+/* generous, calm heading rhythm */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* wordmark logotype in the masthead */
+.masthead__menu-item--lg {
+  font-family: $header-font-family;
+  font-size: 1.4em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+
+  a {
+    color: $ink;
+
+    &:hover {
+      color: $forest-green;
+    }
+  }
+}
+
+.masthead__menu-item {
+  a {
+    color: $warm-gray;
+
+    &:hover {
+      color: $forest-green;
+    }
+  }
+}
+
+/* flatten boxed, shadowed elements for a quieter page */
+.author__avatar img,
+.archive__item-teaser img {
+  border-radius: $border-radius;
+  box-shadow: none;
+}
+
+a {
+  text-underline-offset: 0.15em;
+}
+
+/* subtle divider */
+.page__footer {
+  border-top: 1px solid $border-color;
+}
