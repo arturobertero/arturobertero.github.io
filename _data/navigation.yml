@@ -7,20 +7,20 @@ main:
     url: /publications/
 
   - title: "Conferences"
-    url: /talks/ 
+    url: /talks/
+
+  - title: "Teaching"
+    url: /teaching/
 
 
 #  - title: "Blog Posts"
 #    url: /year-archive/
-    
+
 #   - title: "Research"
-#    url: /research/ 
+#    url: /research/
 
-   
 
-#  - title: "Teaching"
-#    url: /teaching/    
-    
+
 #  - title: "Portfolio"
 #    url: /portfolio/ 
 
