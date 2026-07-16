@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Arturo Bertero"
-description              : &description "Ph.D. Student in Political Science, University of Milan"
+description              : &description "Postdoctoral researcher, University of Milan"
 url                      : https://arturobertero.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "arturobertero/arturobertero.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -62,7 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "my_photo.jpeg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -83,8 +83,8 @@ author:
   name             : "Arturo Bertero"
   avatar           : "my_photo.jpeg"
   circular_avatar  : "true"
-  bio              : "Ph.D. Student in Political Science, University of Milan"
-  location         : "Turin, Italy"
+  bio              : "Postdoctoral researcher, University of Milan"
+  location         : "Milan, Italy"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=it&user=C5ps1gwAAAAJ"
