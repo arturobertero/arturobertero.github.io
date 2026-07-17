@@ -1,21 +1,51 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Political sociologist and computational social scientist"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a postdoctoral researcher at the [University of Milan](https://www.unimi.it/en), working on the Horizon Europe LONELY-EU project, which studies loneliness. In my BA and MA, I primarily studied Political Communication. My research focuses on sociopolitical attitudes, political belief systems, network methods, and conspiracism. Here you find my **CV**, **publications**, and **blog posts**. You can contact me through the channels highlighted on the left (desktop website), or at: arturo.bertero@unimi.it. 
+I am a **political sociologist and computational social scientist** at the [University of Milan](https://www.unimi.it/en). I study how political beliefs are organised, how they change, and how they shape political behaviour. My work combines survey research with network analysis, psychometrics, and computational methods.
 
-Latest publication
-======
-Inequality belief systems: [Open Access](https://link.springer.com/article/10.1007/s11205-024-03352-5?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240717&utm_content=10.1007/s11205-024-03352-5). More work is listed on my [publications](/publications/) page.
+I am currently a postdoctoral researcher on [LONELY-EU](https://lonelinessineurope.eu/), a Horizon Europe project examining loneliness and its social and political consequences. Previously, I worked on the comparative [SUSPECTS](https://doi.org/10.69101/IPS.2025.20.1.4) project on the supply, demand, and communication of conspiracy theories.
 
-Relevant Info
-======
-I study sociopolitical attitudes with a network approach. I started by analyzing attitudes toward inequality, and I am now moving forward to understand broader political belief systems. My approach blends three streams of research. First, I rely upon [**Belief Network Analysis**](https://www.journals.uchicago.edu/doi/abs/10.1086/691274), a well-established branch of [sociology](https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/searching-for-homo-economicus/A1F33AFB1DADF31BF940D2D7C266ACB4) and [political science](https://www.tandfonline.com/doi/pdf/10.1080/08913810608443650).Second, I am interested in the relational heterogeneity highlighted by [Cultural Sociology](https://www.sciencedirect.com/science/article/abs/pii/S0304422X17301535). Third, I exploit the recent methodological advancements of [**Network Psychometrics**](https://www.nature.com/articles/s43586-021-00055-w) to improve social sciences' understanding of these phenomena. My research is highly interdisciplinary and lies at the border between social sciences and psychology, which is my latest interest. 
+[Download my CV](/files/CV_mio.pdf){: .btn .btn--primary }
+[View publications](/publications/){: .btn }
+[Talks and presentations](/talks/){: .btn }
+[Email me](mailto:arturo.bertero@unimi.it){: .btn }
 
-So far this approach has taken me from inequality beliefs to political belief systems more broadly, and from there to conspiracy theories: I've shown how anger reshapes the structure of US inequality beliefs, proposed tightness and consensus as two properties that go beyond ideological constraint, and used networks to locate conspiracy endorsement as a central driver of vaccine hesitancy in Italy.
+Research
+========
+
+### Political belief systems
+
+I treat political belief systems as relational structures: attitudes, identities, and evaluations are connected rather than isolated. My research develops and compares network methods for describing how these systems are organised, how tightly their elements are connected, and how much people agree on their structure.
+
+### Conspiracy theories and misinformation
+
+I study conspiracist beliefs comparatively and examine how they relate to ideology, knowledge, political communication, and public-health attitudes. My work on Italian vaccine hesitancy shows that conspiracy endorsement occupies a central position within a wider system of interconnected predictors.
+
+### Social disconnectedness and political behaviour
+
+Within LONELY-EU, I investigate how loneliness and objective social isolation relate to political attitudes and participation, including voter turnout. I also develop resources for comparative research on loneliness, including the [EU Loneliness Explorer](https://sppqgn-arturo-bertero.shinyapps.io/Lon_Shiny/).
+
+Selected recent work
+====================
+
+- **Conspiracy Theories Are Central to the Complex System of Predictors of Italian Vaccine Hesitancy** — *Italian Political Science* (2026). [Read the article](https://italianpoliticalscience.com/index.php/ips/article/view/295).
+- **SUSPECTS: Supply, Demand, and Communication of Conspiracy Theories in Comparative Perspective** — *Italian Political Science* (2026). [Read the article](https://doi.org/10.69101/IPS.2025.20.1.4).
+- **Beyond Constraint: Tightness and Consensus of Political Belief Systems** — *Italian Political Science Review* (2025). [Read the article](https://doi.org/10.1017/ipo.2025.10080).
+- **Consolidation and Change: Exploring the Impact of Anger and Network Dynamics on Inequality Belief Systems** — *Network Science* (2025). [Read the article](https://doi.org/10.1017/nws.2025.10004).
+
+Latest updates
+==============
+
+- **July 2026:** New article on conspiracy theories and Italian vaccine hesitancy published in *Italian Political Science*.
+- **2026:** Presented new LONELY-EU research on social isolation, loneliness, and voter turnout in Europe.
+- **February 2026:** Released the LONELY-EU database of loneliness datasets in Europe and published the SUSPECTS project article.
+- **2025:** Completed my PhD in Political Science and began my LONELY-EU postdoctoral position at the University of Milan.
+
+[See all news and updates](/news/).

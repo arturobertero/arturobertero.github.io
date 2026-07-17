@@ -1,13 +1,18 @@
 ---
-title: "Presentation of my PhD project"
-collection: Conference
-author: Bertero A.
-type: "Conference"
-permalink: /talks/2024-06-11-conference-7
-date: 2024-06-11
+title: "Belief Systems as Networks of Attitudes: 2024 Presentations"
+collection: talks
+type: "Conference and invited presentations"
+permalink: /talks/2024-belief-systems-presentations
+date: 2024-07-01
+display_date: "2024"
+venue: "INSNA Sunbelt, University of Milan-Bicocca, and Behave Rendez-vous"
+location: "Edinburgh and Milan"
+excerpt: 'Presentations of my doctoral research on the conceptualisation and analysis of political belief systems as networks of attitudes.'
 ---
-In July 2024, I have finally presented the final version of my PhD project to professors and research groups of various universities. 
-First, I presented at the [SPSTrend](https://www.spstrend.it/) research group, in my home university. Second, I presented at Bicocca university, where I was invited by Giulio Costantini (thanks!). 
-Finally, I held a seminair for Cristiano Vezzoni's class on Social and Political Attitudes (MA DAPS & CO, UniMi). 
-It is now time to present at INSNA Sunbelt, where I will try to squeeze all my research output into a 15 mins presentation. 
-You can find the full-version of the slides [here](https://arturobertero.github.io/files/PROJ.pdf)!
+During 2024, I presented work on political belief systems as networks of attitudes at:
+
+- the INSNA Sunbelt Conference in Edinburgh;
+- the University of Milan-Bicocca, invited by Giulio Costantini;
+- Behave Rendez-vous in Milan.
+
+I also presented the framework in an invited lecture for the University of Milan MA course *Social and Political Attitudes*.

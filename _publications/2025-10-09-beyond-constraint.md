@@ -3,12 +3,12 @@ title: "Beyond Constraint: Tightness and Consensus of Political Belief Systems"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-beyond-constraint
-excerpt: 'Reconceptualizes ideological structure beyond constraint by distinguishing the tightness and the consensus of political belief systems, treating ideology as a network of interconnected attitudes rather than a latent trait.'
-date: 2025-10-09
+excerpt: 'Reconceptualises ideological organisation beyond constraint by distinguishing the tightness of relations among attitudes from consensus over the structure of those relations.'
+date: 2025-12-04
 venue: 'Italian Political Science Review / Rivista Italiana di Scienza Politica'
 paperurl: 'https://doi.org/10.1017/ipo.2025.10080'
-citation: 'Bertero, A. (2025). Beyond Constraint: Tightness and Consensus of Political Belief Systems. <i>Italian Political Science Review / Rivista Italiana di Scienza Politica</i>. https://doi.org/10.1017/ipo.2025.10080'
+citation: 'Bertero, A. (2025). Beyond Constraint: Tightness and Consensus of Political Belief Systems. <i>Italian Political Science Review / Rivista Italiana di Scienza Politica</i>, 1–18. https://doi.org/10.1017/ipo.2025.10080'
 ---
-Constraint alone is too blunt an instrument for describing how belief systems hold together. I separate two distinct properties, the tightness of associations between attitudes and the consensus over their structure across individuals, and show why treating ideology as a network of interconnected beliefs, rather than a manifestation of a single latent dimension, better captures how public opinion coheres.
+Constraint is not the only property that matters when describing how a political belief system holds together. The article separates two distinct properties: the tightness of associations among attitudes and the degree of consensus across individuals about the system’s relational structure.
 
-[Read the article]({{ paperurl }})
+[Read the open-access article]({{ paperurl }})

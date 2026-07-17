@@ -5,9 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Peer-reviewed articles, book chapters, reports, and research outputs are listed below in reverse chronological order. You can also find my work on [Google Scholar](https://scholar.google.com/citations?hl=en&user=C5ps1gwAAAAJ) and [ORCID](https://orcid.org/0000-0001-6014-1794).
 
 {% include base_path %}
 
