@@ -1,29 +1,46 @@
 /* ==========================================================================
-   CUSTOM — minimal identity overrides
+   CUSTOM — minimal identity overrides (dark, forest green)
    ========================================================================== */
 
 body {
   line-height: 1.65;
 }
 
-/* generous, calm heading rhythm */
+/* generous, calm heading rhythm, with a visible green accent */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: -0.01em;
+  color: $forest-green;
+}
+
+/* section headers get a left accent bar for a designed, deliberate feel */
+.page__content h1,
+.page__content h2 {
+  border-left: 3px solid $forest-green;
+  padding-left: 0.6em;
+  margin-left: -0.66em;
+}
+
+.page__title {
+  color: $ink;
 }
 
 /* wordmark logotype in the masthead */
+.masthead {
+  background-color: $night-raised;
+}
+
 .masthead__menu-item--lg {
   font-family: $header-font-family;
-  font-size: 1.4em;
-  font-weight: 500;
+  font-size: 1.5em;
+  font-weight: 600;
   letter-spacing: 0.01em;
 
   a {
-    color: $ink;
+    color: $forest-green;
 
     &:hover {
-      color: $forest-green;
+      color: mix(#fff, $forest-green, 25%);
     }
   }
 }
@@ -38,11 +55,51 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* flatten boxed, shadowed elements for a quieter page */
-.author__avatar img,
+/* sidebar surface + avatar ring */
+.sidebar {
+  background-color: $night-raised;
+  padding: 1.5em;
+  border-radius: $border-radius;
+}
+
+.author__avatar img {
+  border: 3px solid $forest-green;
+  border-radius: $border-radius;
+  box-shadow: none;
+}
+
+.author__name {
+  color: $ink;
+}
+
 .archive__item-teaser img {
   border-radius: $border-radius;
   box-shadow: none;
+}
+
+/* buttons filled with the accent */
+.btn--inverse {
+  background-color: $forest-green;
+  color: $night;
+  border-color: $forest-green;
+
+  &:hover {
+    background-color: mix(#fff, $forest-green, 20%);
+    color: $night;
+  }
+}
+
+/* social icons pick up the accent instead of fading into gray */
+.author__urls-wrapper,
+.page__footer-follow {
+  .social-icons li a,
+  .social-icons li i {
+    color: $forest-green;
+  }
+
+  .social-icons li a:hover {
+    color: mix(#fff, $forest-green, 25%);
+  }
 }
 
 a {
@@ -52,4 +109,5 @@ a {
 /* subtle divider */
 .page__footer {
   border-top: 1px solid $border-color;
+  background-color: $night-raised;
 }

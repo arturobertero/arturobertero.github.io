@@ -48,23 +48,26 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
-/* forest green identity */
-$forest-green                : #1B4332;
+/* forest green identity — dark by default */
+$forest-green                : #52B788;   // bright accent, tuned for dark backgrounds
+$forest-green-deep           : #1B4332;   // reserved for fills/backgrounds needing depth
 $forest-green-dark           : mix(#000, $forest-green, 20%);
-$cream                       : #FAF9F6;
-$ink                         : #1C1C1A;
-$warm-gray                   : #6B6B63;
+$night                       : #12180F;   // near-black, green-tinted background
+$night-raised                : #1B2118;   // sidebar / card surface, one step up from bg
+$cream                       : #F3F1EA;   // primary text on dark
+$ink                         : #F3F1EA;
+$warm-gray                   : #9CA79B;   // muted secondary text, sage-tinted
 
 $gray                       : $warm-gray;
 $dark-gray                  : $ink;
 $darker-gray                : $ink;
-$light-gray                 : mix(#fff, $gray, 55%);
-$lighter-gray               : #E4E1D8;
+$light-gray                 : mix(#000, $gray, 35%);
+$lighter-gray               : #2A332B;
 
-$body-color                 : $cream;
-$background-color           : $cream;
-$code-background-color      : #F3F1EA;
-$code-background-color-dark : $light-gray;
+$body-color                 : $night;
+$background-color           : $night;
+$code-background-color      : $night-raised;
+$code-background-color-dark : #0D110B;
 $text-color                 : $ink;
 $border-color               : $lighter-gray;
 
@@ -99,9 +102,9 @@ $xing-color                 : #006567;
 
 /* links */
 $link-color                 : $forest-green;
-$link-color-hover           : $forest-green-dark;
+$link-color-hover           : mix(#fff, $forest-green, 25%);
 $link-color-visited         : mix(#000, $forest-green, 15%);
-$masthead-link-color        : $ink;
+$masthead-link-color        : $cream;
 $masthead-link-color-hover  : $forest-green;
 
 
