@@ -24,9 +24,9 @@ Research
 
 I treat political belief systems as relational structures: attitudes, identities, and evaluations are connected rather than isolated. My research develops and compares network methods for describing how these systems are organised, how tightly their elements are connected, and how much people agree on their structure.
 
-### Conspiracy theories and misinformation
+### Conspiracy beliefs
 
-I study conspiracist beliefs comparatively and examine how they relate to ideology, knowledge, political communication, and public-health attitudes. My work on Italian vaccine hesitancy shows that conspiracy endorsement occupies a central position within a wider system of interconnected predictors.
+I study conspiracist beliefs comparatively and examine how they relate to ideology, knowledge, political communication, and public-health attitudes. In my work on Italian vaccine hesitancy, conspiracy beliefs refer specifically to beliefs about the origin of COVID-19 that were considered conspiratorial when the survey was conducted. The study shows that endorsement of these beliefs occupies a central position within a wider system of interconnected predictors of vaccine hesitancy.
 
 ### Social disconnectedness and political behaviour
 
