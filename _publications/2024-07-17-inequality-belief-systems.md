@@ -11,4 +11,4 @@ citation: 'Bertero, A., Franetovic, G., & Mijs, J. J. B. (2024). Inequality Beli
 ---
 We treat beliefs about inequality as a structured system rather than a bundle of separate opinions and show how to recover that structure from survey data. The US and Dutch cases reveal cohesive but context-specific belief systems centred on perceptions of inequality and support for redistribution.
 
-[Read the open-access article]({{ paperurl }}) · [Replication code](https://github.com/arturobertero/inequality_belief_systems)
+[Replication code](https://github.com/arturobertero/inequality_belief_systems)

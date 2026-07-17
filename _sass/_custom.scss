@@ -1,35 +1,21 @@
 /* ==========================================================================
-   CUSTOM — minimal identity overrides (dark, forest green)
+   CUSTOM — minimal identity overrides (dark, forest green accent)
    ========================================================================== */
 
 body {
   line-height: 1.65;
 }
 
-/* generous, calm heading rhythm, with a visible green accent */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: -0.01em;
-  color: $forest-green;
-}
-
-/* section headers get a left accent bar for a designed, deliberate feel */
-.page__content h1,
-.page__content h2 {
-  border-left: 3px solid $forest-green;
-  padding-left: 0.6em;
-  margin-left: -0.66em;
 }
 
 .page__title {
   color: $ink;
 }
 
-/* wordmark logotype in the masthead */
-.masthead {
-  background-color: $night-raised;
-}
-
+/* wordmark logotype in the masthead — the one deliberate accent anchor */
 .masthead__menu-item--lg {
   font-family: $header-font-family;
   font-size: 1.5em;
@@ -55,15 +41,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* sidebar surface + avatar ring */
-.sidebar {
-  background-color: $night-raised;
-  padding: 1.5em;
-  border-radius: $border-radius;
-}
-
-.author__avatar img {
-  border: 3px solid $forest-green;
+.author__avatar img,
+.archive__item-teaser img {
   border-radius: $border-radius;
   box-shadow: none;
 }
@@ -72,33 +51,24 @@ h1, h2, h3, h4, h5, h6 {
   color: $ink;
 }
 
-.archive__item-teaser img {
-  border-radius: $border-radius;
-  box-shadow: none;
-}
-
-/* buttons filled with the accent */
+/* buttons: outline rather than filled, keeps the accent light */
 .btn--inverse {
-  background-color: $forest-green;
-  color: $night;
-  border-color: $forest-green;
+  background-color: transparent;
+  color: $forest-green;
+  border: 1px solid $forest-green;
 
   &:hover {
-    background-color: mix(#fff, $forest-green, 20%);
+    background-color: $forest-green;
     color: $night;
   }
 }
 
-/* social icons pick up the accent instead of fading into gray */
+/* social icons stay muted, accent only appears on hover */
 .author__urls-wrapper,
 .page__footer-follow {
-  .social-icons li a,
-  .social-icons li i {
+  .social-icons li a:hover,
+  .social-icons li a:hover i {
     color: $forest-green;
-  }
-
-  .social-icons li a:hover {
-    color: mix(#fff, $forest-green, 25%);
   }
 }
 
@@ -106,8 +76,6 @@ a {
   text-underline-offset: 0.15em;
 }
 
-/* subtle divider */
 .page__footer {
   border-top: 1px solid $border-color;
-  background-color: $night-raised;
 }

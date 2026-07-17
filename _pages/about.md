@@ -1,14 +1,14 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "Political sociologist and computational social scientist"
+excerpt: "Computational Social Scientist"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a **political sociologist and computational social scientist** at the [University of Milan](https://www.unimi.it/en). I study how political beliefs are organised, how they change, and how they shape political behaviour. My work combines survey research with network analysis, psychometrics, and computational methods.
+I am a **computational social scientist** at the [University of Milan](https://www.unimi.it/en). I study how political beliefs are organised, how they change, and how they shape political behaviour. My work combines survey research with network analysis, psychometrics, and computational methods.
 
 I am currently a postdoctoral researcher on [LONELY-EU](https://lonelinessineurope.eu/), a Horizon Europe project examining loneliness and its social and political consequences. Previously, I worked on the comparative [SUSPECTS](https://doi.org/10.69101/IPS.2025.20.1.4) project on the supply, demand, and communication of conspiracy theories.
 

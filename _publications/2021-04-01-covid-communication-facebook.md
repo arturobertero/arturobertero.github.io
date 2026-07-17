@@ -10,5 +10,3 @@ paperurl: 'https://openarchive.tk.mta.hu/467/'
 citation: 'Bertero, A. (2021). The COVID-19 Related Communication of Italian Politicians and Its Success on Facebook. In <i>Current Populism in Europe: Gender-Backlash and Counter-strategies</i> (pp. 79–94). Heinrich Böll Stiftung Prague. ISBN 978-80-88289-26-5.'
 ---
 This chapter analyses Italian politicians’ pandemic-related Facebook communication and the patterns of audience engagement associated with different actors and messages.
-
-[Read or download the chapter]({{ paperurl }})

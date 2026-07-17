@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Arturo Bertero"
 title_separator          : "-"
 name                     : &name "Arturo Bertero"
-description              : &description "Political sociologist and computational social scientist at the University of Milan"
+description              : &description "Computational Social Scientist at the University of Milan"
 url                      : https://arturobertero.github.io
 baseurl                  : ""
 repository               : "arturobertero/arturobertero.github.io"
@@ -76,7 +76,7 @@ author:
   name             : "Arturo Bertero"
   avatar           : "my_photo.jpeg"
   circular_avatar  : "true"
-  bio              : "Political sociologist and computational social scientist at the University of Milan"
+  bio              : "Computational Social Scientist at the University of Milan"
   location         : "Milan, Italy"
   employer         : "University of Milan"
   pubmed           :
@@ -103,7 +103,7 @@ author:
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "arturobertero"
+  twitter          :
   vine             :
   weibo            :
   xing             :

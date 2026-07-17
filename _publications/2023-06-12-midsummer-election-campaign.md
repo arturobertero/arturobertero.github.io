@@ -10,5 +10,3 @@ paperurl: 'https://doi.org/10.36253/qoe-14224'
 citation: 'Bertero, A., & Scaduto, G. (2023). A Midsummer Night’s Dream: Political Communication During the Italian 2022 Electoral Campaign. <i>Italian Journal of Electoral Studies</i>, 86(1), 13–28. https://doi.org/10.36253/qoe-14224'
 ---
 The article describes coalition formation, campaign issues, political macro-frames, and hybrid communication strategies during the 2022 Italian general election, combining evidence from legacy media and social platforms.
-
-[Read the open-access article]({{ paperurl }})

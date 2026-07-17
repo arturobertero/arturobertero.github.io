@@ -10,5 +10,3 @@ paperurl: 'https://doi.org/10.69101/IPS.2025.20.1.4'
 citation: 'Mancosu, M., Vassallo, S., Pedrazzani, A., Belluati, M., Ventura, S., Bertero, A., & Sumbul, U. (2026). SUSPECTS: Supply, Demand, and Communication of Conspiracy Theories in Comparative Perspective. <i>Italian Political Science</i>, 20(1), 99–112. https://doi.org/10.69101/IPS.2025.20.1.4'
 ---
 The article introduces a comparative research programme on conspiracy theories organised around three connected dimensions: their supply by political and media actors, public demand, and their communication across contemporary information environments.
-
-[Read the article]({{ paperurl }})

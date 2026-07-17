@@ -11,4 +11,4 @@ citation: 'Bertero, A., & Franetovic, G. (2025). Consolidation and Change: Explo
 ---
 The article uses moderated network models and simulations to examine how anger reorganises attitudes toward inequality. Higher anger is associated with a more tightly connected and polarised system, while simulated changes to central attitudes generate broader downstream adjustments.
 
-[Read the open-access article]({{ paperurl }}) · [Replication code](https://github.com/arturobertero/consolidation_change_inequality_belief_systems)
+[Replication code](https://github.com/arturobertero/consolidation_change_inequality_belief_systems)
