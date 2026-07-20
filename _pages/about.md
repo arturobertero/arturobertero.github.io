@@ -35,10 +35,8 @@ Within LONELY-EU, I investigate how loneliness and objective social isolation re
 Selected recent work
 ====================
 
+- **Support for Populist Parties and Climate Change Attitudes: Evidence from Six Countries in the Aftermath of the 2024 European Elections** — in *Conspiracism and Political Conflict* (Palgrave Macmillan, 2026). [Read the chapter](https://doi.org/10.1007/978-3-032-13933-7_7).
 - **Conspiracy Theories Are Central to the Complex System of Predictors of Italian Vaccine Hesitancy** — *Italian Political Science* (2026). [Read the article](https://italianpoliticalscience.com/index.php/ips/article/view/295).
-- **SUSPECTS: Supply, Demand, and Communication of Conspiracy Theories in Comparative Perspective** — *Italian Political Science* (2026). [Read the article](https://doi.org/10.69101/IPS.2025.20.1.4).
-- **Beyond Constraint: Tightness and Consensus of Political Belief Systems** — *Italian Political Science Review* (2025). [Read the article](https://doi.org/10.1017/ipo.2025.10080).
-- **Consolidation and Change: Exploring the Impact of Anger and Network Dynamics on Inequality Belief Systems** — *Network Science* (2025). [Read the article](https://doi.org/10.1017/nws.2025.10004).
 
 Latest updates
 ==============
