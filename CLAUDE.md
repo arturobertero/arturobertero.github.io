@@ -16,7 +16,17 @@ no CI workflow — pushing to `master` triggers the default Pages build (~1 min 
 - Publications collection → `_publications/*.md` (renders at `/publications/`)
 - Talks collection → `_talks/*.md` (renders at `/talks/`, currently the only real content besides About)
 - Uploaded PDFs → `files/`  (e.g. the real CV is `files/CV_mio.pdf`)
+- CV source → `cv/CV_mio.tex`, built with XeLaTeX; see `cv/README.md`
 - Images → `images/`
+
+## Standing rule: the CV moves with the site
+**Every refresh of this site updates the CV in the same commit.** A new
+publication, position, talk, course or supervision that lands in
+`_publications/`, `_pages/about.md` or `_pages/news.md` also becomes a `\cv{}{}`
+entry in `cv/CV_mio.tex`. Rebuild with `xelatex CV_mio.tex` (twice) and copy the
+result over `files/CV_mio.pdf`. The CV is what Arturo sends to people, so a site
+that is ahead of it publishes two versions of the same record. The CV was a Word
+document until 2026-09-07; do not go back to editing a binary.
 
 ## Current known problems (fix these)
 1. **Stale identity.** `_config.yml` and `_pages/about.md` still say "Ph.D. Student" / "Turin".

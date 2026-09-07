@@ -1,0 +1,308 @@
+% Curriculum Vitae, Arturo Bertero
+% Build:  xelatex CV_mio.tex   (run twice, for the page count in the footer)
+% Output: CV_mio.pdf, copied to ../files/CV_mio.pdf, which the site links.
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage[a4paper,top=1.6cm,bottom=1.6cm,left=1.9cm,right=1.9cm,footskip=0.85cm]{geometry}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{needspace}
+\usepackage[hidelinks]{hyperref}
+
+% ---------------------------------------------------------------- fonts
+\setmainfont{Palatino Linotype}
+\newfontfamily\sanslabel{Segoe UI}
+\newfontfamily\sansbold{Segoe UI Semibold}
+
+% ---------------------------------------------------------------- colour
+\definecolor{ink}{HTML}{1A1A1A}
+\definecolor{accent}{HTML}{7A2E2E}
+\definecolor{muted}{HTML}{6E6E6E}
+\definecolor{hairline}{HTML}{C9C0BA}
+\color{ink}
+
+\hypersetup{
+  colorlinks=true, linkcolor=accent, urlcolor=accent,
+  pdftitle={Arturo Bertero, Curriculum Vitae},
+  pdfauthor={Arturo Bertero}
+}
+
+% ---------------------------------------------------------------- sections
+\titleformat{\section}
+  {\sansbold\fontsize{9.5}{11}\selectfont\color{accent}}
+  {}{0pt}{\MakeUppercase}[\vspace{2pt}{\color{hairline}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{10pt plus 3pt minus 2pt}{5pt}
+
+\titleformat{\subsection}
+  {\sanslabel\fontsize{8.5}{10}\selectfont\color{muted}}
+  {}{0pt}{\MakeUppercase}
+\titlespacing*{\subsection}{0pt}{9pt plus 2pt minus 1pt}{3pt}
+
+% ---------------------------------------------------------------- entries
+\newlength{\yearw}\setlength{\yearw}{2.15cm}
+\newlength{\bodyw}\setlength{\bodyw}{\dimexpr\textwidth-\yearw-0.45cm\relax}
+
+% \cv{left column}{body}
+\newcommand{\cv}[2]{%
+  \needspace{2\baselineskip}%
+  \par\noindent
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{\yearw}@{\hspace{0.45cm}}>{\raggedright\arraybackslash}p{\bodyw}@{}}
+    \sanslabel\fontsize{8.5}{10.5}\selectfont\color{muted}#1 & #2
+  \end{tabular}%
+  \par\vspace{3pt}%
+}
+\newcommand{\role}[1]{\textbf{#1}\par}
+\newcommand{\venue}[1]{\textit{#1}}
+
+\setlength{\parindent}{0pt}
+\linespread{1.0}
+
+% ---------------------------------------------------------------- footer
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\sanslabel\fontsize{8}{9}\selectfont\color{muted}Arturo Bertero}
+\fancyfoot[R]{\sanslabel\fontsize{8}{9}\selectfont\color{muted}\thepage\,/\,\pageref{LastPage}}
+
+\begin{document}
+
+% ================================================================ header
+{\fontsize{25}{27}\selectfont Arturo Bertero}\par\vspace{4pt}
+{\sanslabel\fontsize{9.5}{12}\selectfont\color{muted}%
+Political Sociologist \quad\textbullet\quad Computational Social Scientist \quad\textbullet\quad Italian}\par
+\vspace{5pt}{\color{hairline}\hrule height 0.6pt}\vspace{5pt}
+{\sanslabel\fontsize{9}{12}\selectfont
+\href{mailto:arturo.bertero@unimi.it}{arturo.bertero@unimi.it} \quad\textbullet\quad
+\href{https://orcid.org/0000-0001-6014-1794}{ORCID} \quad\textbullet\quad
+\href{https://arturobertero.github.io/}{Website} \quad\textbullet\quad
+\href{https://scholar.google.com/citations?user=C5ps1gwAAAAJ&hl=it}{Google Scholar}}\par
+
+% ================================================================ education
+\section{Education}
+
+\cv{2021–2025}{\role{Ph.D. in Political Science}
+Department of Social and Political Sciences, University of Milan (NASP), Italy.}
+
+\cv{Feb.–Mar. 2024}{\role{Virtual Visiting}
+Michigan State University, Belief Systems Lab. Supervisor: Mark J. Brandt.}
+
+\cv{2018–2020}{\role{MA in Political and Public Communication}
+University of Turin, Department of Culture, Politics and Society, Italy.}
+
+\cv{2019–2020}{\role{Erasmus}
+University of Stockholm, Department of Sociology, Sweden.}
+
+\cv{2015–2018}{\role{BA in Social and Political Science}
+University of Turin, Department of Culture, Politics and Society, Italy.}
+
+% ================================================================ research
+\section{Research experience}
+
+\cv{2025–2027}{\role{Postdoctoral Researcher (\textit{contratto di ricerca})}
+\venue{LONELY-EU}, Horizon Europe project, University of Milan. WP leader: Cristiano Vezzoni.}
+
+\cv{2024–2025}{\role{Postdoctoral Researcher}
+\venue{SUSPECTS}: StUdying SuPply, demand, and Endorsement of Conspiracy TheorieS in six European countries. P.I.: Moreno Mancosu.}
+
+\cv{2022}{\role{Coding Assistant}
+Harmonization of the ITANES dataset. Carried out for the SPS Trend group.}
+
+\cv{2020}{\role{Research Assistant}
+Development of a hate speech dictionary for social media analysis. Research carried out by CODER (Center for Public Opinion and Digital Environment Research), with G. Bobba, A. Seddone, M. Mancosu and F. Vegetti.}
+
+\cv{2020}{\role{Research Assistant}
+Preparation of an expert survey on media populism in Europe. With A. Nai (University of Amsterdam), G. Bobba, A. Seddone, M. Mancosu and F. Vegetti (University of Turin).}
+
+\cv{2019}{\role{Research Assistant}
+Monitoring and mapping of Facebook pages spreading fake news and conspiracy theories. University of Turin, project CODER.}
+
+\cv{2019}{\role{Research Assistant}
+Participant in the H2020 project DEMOS, Democratic Efficacy and the Varieties of Populism in Europe.}
+
+% ================================================================ teaching
+\section{Teaching and supervision}
+
+\cv{2026}{\role{Student supervision}
+Clara Comte, Université Paris-Saclay.}
+
+\cv{2026}{\role{Applied Statistics Lab}
+MA Allievi, Collegio Carlo Alberto, Turin. Course “Applied Statistics”. Software: RStudio.}
+
+\cv{2025}{\role{Applied Statistics Lab}
+MA Allievi, Collegio Carlo Alberto, Turin. Course “Applied Statistics”. Software: RStudio.}
+
+\cv{2024}{\role{Social and Political Attitudes}
+Invited lecture for the class “Social and Political Attitudes”, held by Cristiano Vezzoni. MA DAPS\&CO, Data Analytics for Politics, Society \& Complex Organizations, University of Milan. Lecture: “Political belief systems as networks of attitudes”.}
+
+\cv{2024}{\role{Applied Statistics Lab}
+MA Allievi, Collegio Carlo Alberto, Turin. Course “Applied Statistics”, held by D. Auer, A. Szekely and K. Nalewajko. Software: STATA.}
+
+\cv{2023}{\role{Survey design}
+Lecture for Pepe Research on survey design and implementation.}
+
+\cv{2020–2021}{\role{Political Science 2.0}
+University of Turin, course held by Professor G. Bobba. BA in Social Innovation, Communication and New Technologies.}
+
+% ================================================================ publications
+\section{Publications}
+
+\subsection{Journal articles}
+
+\cv{2026}{Mancosu, M., Biancalana, C., Ladini, R., \textbf{Bertero, A.} (2026). Populist attitudes, ideology, and climate change beliefs: a comparative analysis of six European countries. \href{https://doi.org/10.36253/smp-16840}{\venue{SocietàMutamentoPolitica}}, 17(33), 117–130.}
+
+\cv{2026}{\textbf{Bertero, A.} (2026). Conspiracy theories are central to the complex system of predictors of Italian vaccine hesitancy. \href{https://doi.org/10.69101/IPS.2025.20.3.3}{\venue{Italian Political Science}}, 20(3), 239–262.}
+
+\cv{2026}{Mancosu, M., Vassallo, S., Pedrazzani, A., Belluati, M., Ventura, S., \textbf{Bertero, A.}, Sumbul, U. (2026). SUSPECTS: supply, demand, and communication of conspiracy theories in comparative perspective. \href{https://doi.org/10.69101/IPS.2025.20.1.4}{\venue{Italian Political Science}}, 20(1), 99–112.}
+
+\cv{2025}{\textbf{Bertero, A.} (2025). Beyond constraint: tightness and consensus of political belief systems. \href{https://doi.org/10.1017/ipo.2025.10080}{\venue{Italian Political Science Review / Rivista Italiana di Scienza Politica}}, 1–18.}
+
+\cv{2025}{\textbf{Bertero, A.}, Franetovic, G. (2025). Consolidation and change: exploring the impact of anger and network dynamics on inequality belief systems. \href{https://doi.org/10.1017/nws.2025.10004}{\venue{Network Science}}, 13, e9.}
+
+\cv{2024}{\textbf{Bertero, A.}, Franetovic, G., Mijs, J. J. B. (2024). Inequality belief systems: what they look like, how to study them, and why they matter. \href{https://doi.org/10.1007/s11205-024-03352-5}{\venue{Social Indicators Research}}, 174(2), 445–472.}
+
+\cv{2023}{Franetovic, G., \textbf{Bertero, A.} (2023). How do people understand inequality in Chile? A study through attitude network analysis. \href{https://doi.org/10.47909/awari.42}{\venue{AWARI}}, 4, 1–21.}
+
+\cv{2023}{\textbf{Bertero, A.}, Scaduto, G. (2023). A midsummer night’s dream: political communication during the Italian 2022 electoral campaign. \href{https://doi.org/10.36253/qoe-14224}{\venue{Italian Journal of Electoral Studies}}, 86(1), 13–28.}
+
+\subsection{Book chapters}
+
+\cv{2026}{Biancalana, C., Mancosu, M., Ladini, R., \textbf{Bertero, A.} (2026). Support for populist parties and climate change attitudes: evidence from six countries in the aftermath of 2024 European elections. In M. Caiani, M. Solinas, H.-J. Trenz (Eds.), \href{https://doi.org/10.1007/978-3-032-13933-7_7}{\venue{Conspiracism and Political Conflict}} (pp. 131–155). Palgrave Studies in European Political Sociology. Palgrave Macmillan, Cham.}
+
+\cv{2021}{\textbf{Bertero, A.}, Seddone, A. (2021). Italy: populist in the mirror, (de)politicizing the COVID-19 from government and opposition. In G. Bobba, N. Hubé (Eds.), \href{https://doi.org/10.1007/978-3-030-66011-6_4}{\venue{Populism and the Politicization of the COVID-19 Crisis in Europe}} (pp. 45–58). Palgrave Macmillan.}
+
+\cv{2021}{\textbf{Bertero, A.} (2021). The COVID-19 related communication of Italian politicians and its success on Facebook. In \href{https://openarchive.tk.mta.hu/467/}{\venue{Current Populism in Europe: Gender-Backlash and Counter-strategies}} (pp. 79–94). Heinrich Böll Stiftung Prague.}
+
+\subsection{Reports and other outputs}
+
+\cv{2026}{\textbf{Bertero, A.}, Growiec, K., Luhmann, M., Tang, Y., Vezzoni, C. (2026). LONELY-EU WP3\_1A: database of loneliness datasets in Europe. \href{https://doi.org/10.17605/OSF.IO/3T9KG}{\venue{OSF report}}.}
+
+\cv{2022}{Vegetti, F., \textbf{Bertero, A.}, Bobba, G., Mancosu, M., Seddone, A. (2022). Fuel my fire. \href{https://scholar.google.com/citations?view_op=view_citation&hl=it&user=C5ps1gwAAAAJ&citation_for_view=C5ps1gwAAAAJ:qjMakFHDy7sC}{\venue{Blue paper, University of Turin}}.}
+
+\cv{2021}{Marincea, A., Školkay, A., Baloge, M., \textbf{Bertero, A.}, Bobba, G., Hubé, N., Sotiropoulos, D. A. (2021). Populism and social media: a comparative analysis of populists’ shared content and networks on Facebook. \href{https://scholar.google.com/citations?view_op=view_citation&hl=it&user=C5ps1gwAAAAJ&sortby=pubdate&citation_for_view=C5ps1gwAAAAJ:9yKSN-GCB0IC}{\venue{DEMOS}}.}
+
+% ================================================================ service
+\section{Academic service}
+
+\cv{Reviewer}{American Journal of Political Science; British Journal of Psychology; Humanities and Social Sciences Communications; Information, Communication \& Society; Italian Political Science; Journal of Personality and Social Psychology: Attitudes and Social Cognition; Political Psychology; Social Indicators Research; Socius.}
+
+\cv{Web developer}{\href{https://sppqgn-arturo-bertero.shinyapps.io/Lon_Shiny/}{EU Loneliness Explorer}.}
+
+% ================================================================ affiliations
+\section{Professional affiliations and networks}
+
+\cv{2023–present}{\role{Member}
+ECPR standing groups on affective polarization, political sociology, political communication, political methodology, political psychology and political networks.}
+
+\cv{2022–present}{\role{Member}
+American Sociological Association.}
+
+\cv{2022–present}{\role{Informal affiliation}
+Collegio Carlo Alberto, Turin.}
+
+\cv{2021–present}{\role{Member}
+SPS Trend Group, University of Milan.}
+
+\cv{2020–present}{\role{Member}
+European Consortium for Political Research.}
+
+% ================================================================ awards
+\section{Awards, scholarships and research grants}
+
+\cv{2026}{\role{Early Career Development 2026}
+University of Milan la Statale. € 3.500.}
+
+\cv{2025–2026}{\role{Postdoctoral scholarship (\textit{contratto di ricerca})}
+Department of Social and Political Sciences, University of Milan la Statale. LONELY-EU project. P.I.: Cristiano Vezzoni.}
+
+\cv{2024–2025}{\role{Postdoctoral scholarship}
+Department of Culture, Politics and Society, University of Turin. SUSPECTS project. P.I.: Moreno Mancosu.}
+
+\cv{2021–2024}{\role{Doctoral scholarship}
+Department of Social and Political Sciences, University of Milan.}
+
+\cv{2021}{\role{Award for the best Master thesis of UniTo}
+University of Turin.}
+
+\cv{2021}{\role{Scholarship awarded by Collegio Carlo Alberto, Turin}
+Research assistant to the project “Media populism, a comparative analysis based on an expert survey”.}
+
+\cv{2021}{\role{\textit{Cultore della materia}}
+Public Opinion and Political Communication.}
+
+\cv{2020}{\role{Teaching assistant}
+Professor G. Bobba, University of Turin, Department of Culture, Politics and Society.}
+
+% ================================================================ schools
+\section{Academic schools}
+
+\cv{2025}{Behave Summer School on \textbf{agent-based modelling} 2025. University of Milan.}
+\cv{2025}{Doing \textbf{computational social science} with Python and R. University of Milan.}
+\cv{2024}{\textbf{AI-GENIE}: automatic item development and validation using LLMs. Statistical Horizons, by Hudson Golino.}
+\cv{2023}{\textbf{Multilevel models} with R. LEMMA, Learning Environment for Multilevel Methodology and Applications, University of Bristol.}
+\cv{2023}{\textbf{Egocentric network analysis} with R. By Raffaele Vacca.}
+\cv{2023}{NASP-CCA Days 2023: frontiers of methods in social and political science. Organized by NASP, hosted by Collegio Carlo Alberto.}
+\cv{2023}{\textbf{Psychological Networks} Amsterdam Winter School 2023. University of Amsterdam.}
+\cv{2022}{NASP-CCA Days 2022: frontiers of methods in social and political science. Organized by NASP, hosted by Collegio Carlo Alberto.}
+\cv{2021}{NASP-CCA Days 2021: frontiers of methods in social and political sciences. Organized by NASP, hosted by Collegio Carlo Alberto.}
+\cv{2020}{Course in \textbf{quantitative text analysis}, held by F. Vegetti. Advanced course of the excellence project CODER (Center for Public Opinion and Digital Environment Research).}
+
+% ================================================================ conferences
+\section{Conferences and presentations}
+
+\cv{2026}{\textbf{Bertero, A.}, Marolla, F., Vezzoni, C. “Disconnected citizens: social isolation, loneliness, and voter turnout in Europe”. \venue{LONELY-EU ambassador meeting}.}
+
+\cv{2026}{\textbf{Bertero, A.}, Marolla, F., Vezzoni, C. “Disconnected citizens: social isolation, loneliness, and voter turnout in Europe”. \venue{LONELY-EU internal seminar}.}
+
+\cv{2025}{\textbf{Bertero, A.}, Mancosu, M., Vegetti, F. “Measuring belief in conspiracy theories across borders: a cross-national psychometric approach”. \venue{ISPP, Prague}.}
+
+\cv{2025}{Mancosu, M., \textbf{Bertero, A.}, Vegetti, F. “Those who know the most are not always the least deceived: on the concept and measurement of conspiracist knowledge”. \venue{ComPol, Milan}.}
+
+\cv{2025}{\textbf{Bertero, A.} “Beliefs in conspiracy theories, conspiracist mentality, and political ideology: a comparative approach”. \venue{Invited presentation, Department of Political Science, Salzburg}.}
+
+\cv{2024}{\textbf{Bertero, A.} “Belief systems as networks of attitudes: conceptualization and implications”. \venue{INSNA Sunbelt, Edinburgh}.}
+
+\cv{2024}{\textbf{Bertero, A.} “Belief systems as networks of attitudes: conceptualization and implications”. \venue{Bicocca University, invited by Giulio Costantini}.}
+
+\cv{2024}{\textbf{Bertero, A.} “The political belief systems of Italian voters”. \venue{Behave Rendez-vous, Milan}.}
+
+\cv{2023}{\textbf{Bertero, A.}, Franetovic, G. “Modelling, estimating, simulating: formalizing attitudes towards inequality as a complex network”. \venue{EUSN conference, Ljubljana}.}
+
+\cv{2023}{\textbf{Bertero, A.}, Franetovic, G. “Overcoming the structuralist/individualist dichotomy: inequality beliefs from a new network and comparative perspective”. \venue{ESRA conference, Milan}.}
+
+\cv{2023}{\textbf{Bertero, A.} “Conspiracy theories are central to the complex system of predictors of Italian vaccine hesitancy”. \venue{CCA Days 2023}.}
+
+\cv{2023}{\textbf{Bertero, A.}, Franetovic, G. “Modelling, estimating, simulating: formalizing attitudes towards inequality as a complex network”. \venue{CCA Days 2023}.}
+
+\cv{2023}{\textbf{Bertero, A.}, Franetovic, G. “Modelling, estimating, simulating: formalizing attitudes towards inequality as a complex network”. \venue{ECPR, Toulouse}.}
+
+\cv{2023}{Franetovic, G., \textbf{Bertero, A.} “¿Cómo las personas entienden la desigualdad en Chile? Un estudio de actitudes mediante análisis de redes”. \venue{CHISOCNET}.}
+
+\cv{2023}{\textbf{Bertero, A.}, Franetovic, G. “Modelling, estimating, simulating: formalizing attitudes towards inequality as a complex network”. \venue{SISEC conference, Brescia}.}
+
+\cv{2022}{Franetovic, G., \textbf{Bertero, A.} “Overcoming the structuralist/individualist dichotomy: inequality beliefs from a new network and comparative perspective”. \venue{1st ISSP User Conference on Social Inequality}.}
+
+\cv{2022}{\textbf{Bertero, A.}, Franetovic, G., Moroni, M., Saccomanno, P. “Trust in science and risk perception: studying the adoption of anti-contagion behaviors in Italy during the COVID-19 pandemic”. \venue{ResPOnsE COVID-19 workshop, Milan}.}
+
+\cv{2022}{\textbf{Bertero, A.}, Rosco, J., Saccomanno, P. “Testing the theory of affective intelligence”. \venue{ResPOnsE COVID-19 workshop, Milan}.}
+
+\cv{2021}{Vegetti, F., \textbf{Bertero, A.}, Bobba, G., Mancosu, M., Seddone, A. “Populist language, issues, and the success of party communication on Facebook”. \venue{6th Prague Populism Conference}.}
+
+\cv{2021}{\textbf{Bertero, A.}, Bobba, G., Mancosu, M., Nai, A., Seddone, A., Vegetti, F. “Measuring media populism through a comparative expert survey: a first assessment”. \venue{ECPR, section S45, Political Communication in Times of Crisis}.}
+
+\cv{2021}{Vegetti, F., Bobba, G., Mancosu, M., Seddone, A., \textbf{Bertero, A.} “Così fan tutti? L’incivility nei commenti alle pagine politiche su Facebook”. \venue{SISP}.}
+
+\cv{2020}{\textbf{Bertero, A.} “The COVID-related communication of populist leaders and its engagement on social media”. \venue{DEMOS online workshop, H2020}.}
+
+% ================================================================ skills
+\section{Additional skills}
+
+\cv{Languages}{Italian (native), English (fluent).}
+
+\cv{Software}{\textbf{RStudio}, \textbf{Rmarkdown}, \textbf{Python}, \textbf{Shiny}, Stata, SPSS Statistics, Excel, Word, GitHub, NVivo, NetLogo, TeXstudio, PowerPoint, Zotero, Overleaf, Pajek.}
+
+\cv{Research methods}{\textbf{Agent-based modelling}, \textbf{AI-GENIE (AI for scale validation)}, \textbf{egocentric network analysis}, \textbf{multilevel modeling}, \textbf{psychological networks}, \textbf{structural equation modeling}, \textbf{survey research}, correlational class analysis, exploratory graph analysis, expert surveys, factor analysis, in-depth interviews, item response theory, latent class analysis, latent profile analysis, quantitative analysis, regression analysis, research design, survey experiments.}
+
+\end{document}
