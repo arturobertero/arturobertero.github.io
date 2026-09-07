@@ -35,13 +35,16 @@ Within LONELY-EU, I investigate how loneliness and objective social isolation re
 Selected recent work
 ====================
 
-- **Support for Populist Parties and Climate Change Attitudes: Evidence from Six Countries in the Aftermath of the 2024 European Elections** — in *Conspiracism and Political Conflict* (Palgrave Macmillan, 2026). [Read the chapter](https://doi.org/10.1007/978-3-032-13933-7_7).
-- **Conspiracy Theories Are Central to the Complex System of Predictors of Italian Vaccine Hesitancy** — *Italian Political Science* (2026). [Read the article](https://italianpoliticalscience.com/index.php/ips/article/view/295).
+- **Populist Attitudes, Ideology, and Climate Change Beliefs: A Comparative Analysis of Six European Countries**, in *SocietàMutamentoPolitica* (2026). [Read the article](https://doi.org/10.36253/smp-16840).
+- **Support for Populist Parties and Climate Change Attitudes: Evidence from Six Countries in the Aftermath of 2024 European Elections**, in *Conspiracism and Political Conflict* (Palgrave Macmillan, 2026). [Read the chapter](https://doi.org/10.1007/978-3-032-13933-7_7).
+- **Conspiracy Theories Are Central to the Complex System of Predictors of Italian Vaccine Hesitancy**, in *Italian Political Science* (2026). [Read the article](https://italianpoliticalscience.com/index.php/ips/article/view/295).
 
 Latest updates
 ==============
 
+- **August 2026:** New comparative article on populist attitudes, ideology, and climate change beliefs published in *SocietàMutamentoPolitica*.
 - **July 2026:** New article on conspiracy theories and Italian vaccine hesitancy published in *Italian Political Science*.
+- **June 2026:** Book chapter on populist party support and climate change attitudes published in *Conspiracism and Political Conflict* (Palgrave Macmillan).
 - **2026:** Presented new LONELY-EU research on social isolation, loneliness, and voter turnout in Europe.
 - **February 2026:** Released the LONELY-EU database of loneliness datasets in Europe and published the SUSPECTS project article.
 - **2025:** Completed my PhD in Political Science and began my LONELY-EU postdoctoral position at the University of Milan.
