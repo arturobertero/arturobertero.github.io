@@ -59,6 +59,15 @@
 \newcommand{\role}[1]{\textbf{#1}\par}
 \newcommand{\venue}[1]{\textit{#1}}
 
+% Google Scholar URLs carry "&" and "_". Inside a \cv entry those sit in a
+% tabular cell, where "&" would end the cell and "_" would open math mode, so
+% the two URLs are frozen here as ordinary characters and used by name below.
+\begingroup
+  \catcode`\&=12 \catcode`\_=12 \catcode`\#=12 \catcode`\~=12
+  \gdef\urlFuelMyFire{https://scholar.google.com/citations?view_op=view_citation&hl=it&user=C5ps1gwAAAAJ&citation_for_view=C5ps1gwAAAAJ:qjMakFHDy7sC}
+  \gdef\urlDemosReport{https://scholar.google.com/citations?view_op=view_citation&hl=it&user=C5ps1gwAAAAJ&sortby=pubdate&citation_for_view=C5ps1gwAAAAJ:9yKSN-GCB0IC}
+\endgroup
+
 \setlength{\parindent}{0pt}
 \linespread{1.0}
 
@@ -179,9 +188,9 @@ University of Turin, course held by Professor G. Bobba. BA in Social Innovation,
 
 \cv{2026}{\textbf{Bertero, A.}, Growiec, K., Luhmann, M., Tang, Y., Vezzoni, C. (2026). LONELY-EU WP3\_1A: database of loneliness datasets in Europe. \href{https://doi.org/10.17605/OSF.IO/3T9KG}{\venue{OSF report}}.}
 
-\cv{2022}{Vegetti, F., \textbf{Bertero, A.}, Bobba, G., Mancosu, M., Seddone, A. (2022). Fuel my fire. \href{https://scholar.google.com/citations?view_op=view_citation&hl=it&user=C5ps1gwAAAAJ&citation_for_view=C5ps1gwAAAAJ:qjMakFHDy7sC}{\venue{Blue paper, University of Turin}}.}
+\cv{2022}{Vegetti, F., \textbf{Bertero, A.}, Bobba, G., Mancosu, M., Seddone, A. (2022). Fuel my fire. \href{\urlFuelMyFire}{\venue{Blue paper, University of Turin}}.}
 
-\cv{2021}{Marincea, A., Školkay, A., Baloge, M., \textbf{Bertero, A.}, Bobba, G., Hubé, N., Sotiropoulos, D. A. (2021). Populism and social media: a comparative analysis of populists’ shared content and networks on Facebook. \href{https://scholar.google.com/citations?view_op=view_citation&hl=it&user=C5ps1gwAAAAJ&sortby=pubdate&citation_for_view=C5ps1gwAAAAJ:9yKSN-GCB0IC}{\venue{DEMOS}}.}
+\cv{2021}{Marincea, A., Školkay, A., Baloge, M., \textbf{Bertero, A.}, Bobba, G., Hubé, N., Sotiropoulos, D. A. (2021). Populism and social media: a comparative analysis of populists’ shared content and networks on Facebook. \href{\urlDemosReport}{\venue{DEMOS}}.}
 
 % ================================================================ service
 \section{Academic service}
