@@ -7,7 +7,7 @@ excerpt: 'Network models of nearly 30,000 respondents in 17 country samples test
 date: 2026-10-07
 venue: 'European Journal of Social Psychology'
 paperurl: 'https://doi.org/10.1002/ejsp.70122'
-citation: 'Bertero, A., Williams, M., Vegetti, F., & Mancosu, M. (2026). Searching for the Core of Conspiracy Belief Systems: The Relationship Between Specific Beliefs and Generic Mentality. <i>European Journal of Social Psychology</i>, [verify: volume(issue), pages]. https://doi.org/10.1002/ejsp.70122'
+citation: 'Bertero, A., Williams, M., Vegetti, F., & Mancosu, M. (2026). Searching for the Core of Conspiracy Belief Systems: The Relationship Between Specific Beliefs and Generic Mentality. <i>European Journal of Social Psychology</i>. https://doi.org/10.1002/ejsp.70122'
 ---
 Conspiracism is measured in two ways: by asking whether people believe specific conspiracy theories, and by measuring a generic conspiracy mentality, a broad readiness to suspect hidden plots behind events. Much of the field assumes that mentality comes first and explains why people who believe one theory tend to believe others.
 
