@@ -44,6 +44,7 @@ Latest updates
 ==============
 
 - **October 2026:** New article on the core of conspiracy belief systems, across three studies and 17 country samples, published open access in the *European Journal of Social Psychology*.
+- **October 2026:** Invited talk in Madrid, at the CSIC workshop on multidimensional clustering analysis for social categorization, presenting a practitioner's guide to statistical belief network modelling (with Philip Warncke and Mark Brandt).
 - **August 2026:** New comparative article on populist attitudes, ideology, and climate change beliefs published in *SocietàMutamentoPolitica*.
 - **July 2026:** New article on conspiracy theories and Italian vaccine hesitancy published in *Italian Political Science*.
 - **June 2026:** Book chapter on populist party support and climate change attitudes published in *Conspiracism and Political Conflict* (Palgrave Macmillan).
