@@ -8,6 +8,8 @@ author_profile: true
 2026
 ====
 
+**27 October: The core of conspiracy belief systems.** With Matt Williams, Federico Vegetti, and Moreno Mancosu, I published “Searching for the Core of Conspiracy Belief Systems: The Relationship Between Specific Beliefs and Generic Mentality” in the *European Journal of Social Psychology*. Across three studies and 17 country samples, a generic conspiracy mentality does not consistently organize belief in specific conspiracy theories: what sits at the core depends on how both are measured. [Read the open-access article](https://doi.org/10.1002/ejsp.70122).
+
 **4 August: Populism, ideology, and climate beliefs.** With Moreno Mancosu, Cecilia Biancalana, and Riccardo Ladini, I published “Populist Attitudes, Ideology, and Climate Change Beliefs: A Comparative Analysis of Six European Countries” in *SocietàMutamentoPolitica*. [Read the open-access article](https://doi.org/10.36253/smp-16840).
 
 **2 July: New article on vaccine hesitancy.** My article, “Conspiracy Theories Are Central to the Complex System of Predictors of Italian Vaccine Hesitancy,” was published in *Italian Political Science*. [Read the article](https://italianpoliticalscience.com/index.php/ips/article/view/295).

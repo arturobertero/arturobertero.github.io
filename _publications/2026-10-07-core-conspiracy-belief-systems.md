@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026-core-conspiracy-belief-systems
 excerpt: 'Network models of nearly 30,000 respondents in 17 country samples test whether a generic conspiracy mentality organizes belief in specific conspiracy theories, or the reverse.'
-date: 2026-10-07
+date: 2026-10-27
 venue: 'European Journal of Social Psychology'
 paperurl: 'https://doi.org/10.1002/ejsp.70122'
 citation: 'Bertero, A., Williams, M., Vegetti, F., & Mancosu, M. (2026). Searching for the Core of Conspiracy Belief Systems: The Relationship Between Specific Beliefs and Generic Mentality. <i>European Journal of Social Psychology</i>. https://doi.org/10.1002/ejsp.70122'
