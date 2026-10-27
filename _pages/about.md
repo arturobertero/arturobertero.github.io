@@ -35,6 +35,7 @@ Within LONELY-EU, I investigate how loneliness and objective social isolation re
 Selected recent work
 ====================
 
+- **Searching for the Core of Conspiracy Belief Systems: The Relationship Between Specific Beliefs and Generic Mentality**, in *European Journal of Social Psychology* (2026). [Read the article](https://doi.org/10.1002/ejsp.70122).
 - **Populist Attitudes, Ideology, and Climate Change Beliefs: A Comparative Analysis of Six European Countries**, in *SocietàMutamentoPolitica* (2026). [Read the article](https://doi.org/10.36253/smp-16840).
 - **Support for Populist Parties and Climate Change Attitudes: Evidence from Six Countries in the Aftermath of 2024 European Elections**, in *Conspiracism and Political Conflict* (Palgrave Macmillan, 2026). [Read the chapter](https://doi.org/10.1007/978-3-032-13933-7_7).
 - **Conspiracy Theories Are Central to the Complex System of Predictors of Italian Vaccine Hesitancy**, in *Italian Political Science* (2026). [Read the article](https://italianpoliticalscience.com/index.php/ips/article/view/295).
@@ -42,6 +43,7 @@ Selected recent work
 Latest updates
 ==============
 
+- **October 2026:** New article on the core of conspiracy belief systems, across three studies and 17 country samples, published open access in the *European Journal of Social Psychology*.
 - **August 2026:** New comparative article on populist attitudes, ideology, and climate change beliefs published in *SocietàMutamentoPolitica*.
 - **July 2026:** New article on conspiracy theories and Italian vaccine hesitancy published in *Italian Political Science*.
 - **June 2026:** Book chapter on populist party support and climate change attitudes published in *Conspiracism and Political Conflict* (Palgrave Macmillan).
