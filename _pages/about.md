@@ -30,7 +30,7 @@ I study conspiracist beliefs comparatively and examine how they relate to ideolo
 
 ### Social disconnectedness and political behaviour
 
-Within LONELY-EU, I investigate how loneliness and objective social isolation relate to political attitudes and participation, including voter turnout. I also develop resources for comparative research on loneliness, including the [EU Loneliness Explorer](https://sppqgn-arturo-bertero.shinyapps.io/Lon_Shiny/).
+Within LONELY-EU, I investigate how loneliness and objective social isolation relate to political attitudes and participation, including voter turnout. I also use AI to build research infrastructure for comparative research on loneliness. The [EU Loneliness Explorer](https://sppqgn-arturo-bertero.shinyapps.io/Lon_Shiny/) catalogues 359 European surveys that measure loneliness, and a [preregistered pipeline](https://doi.org/10.5281/zenodo.23887880) updates it every year: language models and calibrated classifiers screen new studies and read every codebook, and scripts check each value against its source ([code](https://github.com/arturobertero/LONELY-EU_D3.1)).
 
 Selected recent work
 ====================
@@ -43,6 +43,7 @@ Selected recent work
 Latest updates
 ==============
 
+- **November 2026:** Preregistered the AI pipeline that updates the EU Loneliness Explorer every year, and released its second edition: 359 European surveys that measure loneliness, every cell checked against its documentation. [Preregistration](https://doi.org/10.5281/zenodo.23887880), [code](https://github.com/arturobertero/LONELY-EU_D3.1).
 - **October 2026:** New article on the core of conspiracy belief systems, across three studies and 17 country samples, published open access in the *European Journal of Social Psychology*.
 - **October 2026:** Invited talk in Madrid, at the CSIC workshop on multidimensional clustering analysis for social categorization, presenting a practitioner's guide to statistical belief network modelling (with Philip Warncke and Mark Brandt).
 - **August 2026:** New comparative article on populist attitudes, ideology, and climate change beliefs published in *SocietàMutamentoPolitica*.

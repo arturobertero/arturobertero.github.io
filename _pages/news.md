@@ -8,6 +8,8 @@ author_profile: true
 2026
 ====
 
+**2 November: The EU Loneliness Explorer, updated with AI.** I preregistered the procedure that keeps the [EU Loneliness Explorer](https://sppqgn-arturo-bertero.shinyapps.io/Lon_Shiny/) up to date and released its second edition, with 359 European surveys that measure loneliness. Every year, calibrated classifiers and language-model agents screen the new literature and the data archives and read every survey codebook; scripts check each coded value against its source, and every change is logged. This year a second pass audited every cell of the database before release. [Read the preregistration](https://doi.org/10.5281/zenodo.23887880) and [the code](https://github.com/arturobertero/LONELY-EU_D3.1).
+
 **27 October: The core of conspiracy belief systems.** With Matt Williams, Federico Vegetti, and Moreno Mancosu, I published “Searching for the Core of Conspiracy Belief Systems: The Relationship Between Specific Beliefs and Generic Mentality” in the *European Journal of Social Psychology*. Across three studies and 17 country samples, a generic conspiracy mentality does not consistently organize belief in specific conspiracy theories: what sits at the core depends on how both are measured. [Read the open-access article](https://doi.org/10.1002/ejsp.70122).
 
 **4 August: Populism, ideology, and climate beliefs.** With Moreno Mancosu, Cecilia Biancalana, and Riccardo Ladini, I published “Populist Attitudes, Ideology, and Climate Change Beliefs: A Comparative Analysis of Six European Countries” in *SocietàMutamentoPolitica*. [Read the open-access article](https://doi.org/10.36253/smp-16840).
@@ -16,7 +18,7 @@ author_profile: true
 
 **June: Populist parties and climate change attitudes.** Our chapter “Support for Populist Parties and Climate Change Attitudes: Evidence from Six Countries in the Aftermath of 2024 European Elections” appeared in *Conspiracism and Political Conflict* (Palgrave Macmillan). [Read the chapter](https://doi.org/10.1007/978-3-032-13933-7_7).
 
-**February: New LONELY-EU research resource.** With Katarzyna Growiec, Maike Luhmann, Yiming Tang, and Cristiano Vezzoni, I released the *LONELY-EU WP3_1A: Database of Loneliness Datasets in Europe*. [View the report and database](https://doi.org/10.17605/OSF.IO/3T9KG).
+**February: New LONELY-EU research resource.** With Katarzyna Growiec, Maike Luhmann, Yixin Tang, and Cristiano Vezzoni, I released the *LONELY-EU WP3_1A: Database of Loneliness Datasets in Europe*. [View the report and database](https://doi.org/10.17605/OSF.IO/3T9KG).
 
 **6 February: SUSPECTS project article published.** Our overview of the SUSPECTS comparative research programme appeared in *Italian Political Science*. [Read the article](https://doi.org/10.69101/IPS.2025.20.1.4).
 
