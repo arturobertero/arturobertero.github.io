@@ -15,9 +15,14 @@
 \usepackage[hidelinks]{hyperref}
 
 % ---------------------------------------------------------------- fonts
-\setmainfont{Palatino Linotype}
-\newfontfamily\sanslabel{Segoe UI}
-\newfontfamily\sansbold{Segoe UI Semibold}
+% JetBrains Mono (SIL OFL), vendored in fonts/ so the build needs no installed
+% fonts. Contextual alternates are off: they turn "->" or "www" into ligatures.
+\defaultfontfeatures{Path=fonts/, Extension=.ttf, Scale=0.86, RawFeature=-calt}
+\setmainfont{JetBrainsMono}[
+  UprightFont=*-Regular, ItalicFont=*-Italic,
+  BoldFont=*-Bold, BoldItalicFont=*-BoldItalic]
+\newfontfamily\sanslabel{JetBrainsMono-Medium}
+\newfontfamily\sansbold{JetBrainsMono-Bold}
 
 % ---------------------------------------------------------------- colour
 \definecolor{ink}{HTML}{1A1A1A}
@@ -44,7 +49,7 @@
 \titlespacing*{\subsection}{0pt}{9pt plus 2pt minus 1pt}{3pt}
 
 % ---------------------------------------------------------------- entries
-\newlength{\yearw}\setlength{\yearw}{2.15cm}
+\newlength{\yearw}\setlength{\yearw}{2.3cm}
 \newlength{\bodyw}\setlength{\bodyw}{\dimexpr\textwidth-\yearw-0.45cm\relax}
 
 % \cv{left column}{body}
@@ -69,6 +74,7 @@
 \endgroup
 
 \setlength{\parindent}{0pt}
+\frenchspacing
 \linespread{1.0}
 
 % ---------------------------------------------------------------- footer
@@ -267,6 +273,8 @@ Professor G. Bobba, University of Turin, Department of Culture, Politics and Soc
 
 % ================================================================ conferences
 \section{Conferences and presentations}
+
+\cv{2026}{Scaduto, G., \textbf{Bertero, A.}, Valeriani, A. “AIpocalittici e AIntegrati: legitimacy of AI use for journalists and politicians in Italy”. \venue{ComPol, Perugia}.}
 
 \cv{2026}{\textbf{Bertero, A.}, Warncke, P., Brandt, M. “Statistical belief network modeling: a practitioner’s guide”. \venue{Invited presentation, Workshop on Multidimensional Clustering Analysis for Social Categorization, CSIC, Madrid}.}
 
