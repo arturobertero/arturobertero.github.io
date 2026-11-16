@@ -64,11 +64,12 @@
 \newcommand{\role}[1]{\textbf{#1}\par}
 \newcommand{\venue}[1]{\textit{#1}}
 
-% Google Scholar URLs carry "&" and "_". Inside a \cv entry those sit in a
-% tabular cell, where "&" would end the cell and "_" would open math mode, so
-% the two URLs are frozen here as ordinary characters and used by name below.
+% Some URLs carry "&" or "_". Inside a \cv entry those sit in a tabular
+% cell, where "&" would end the cell and "_" would open math mode, so these
+% URLs are frozen here as ordinary characters and used by name below.
 \begingroup
   \catcode`\&=12 \catcode`\_=12 \catcode`\#=12 \catcode`\~=12
+  \gdef\urlLonelinessToll{https://doi.org/10.31235/osf.io/45hxg_v1}
   \gdef\urlFuelMyFire{https://scholar.google.com/citations?view_op=view_citation&hl=it&user=C5ps1gwAAAAJ&citation_for_view=C5ps1gwAAAAJ:qjMakFHDy7sC}
   \gdef\urlDemosReport{https://scholar.google.com/citations?view_op=view_citation&hl=it&user=C5ps1gwAAAAJ&sortby=pubdate&citation_for_view=C5ps1gwAAAAJ:9yKSN-GCB0IC}
 \endgroup
@@ -183,6 +184,10 @@ University of Turin, course held by Professor G. Bobba. BA in Social Innovation,
 \cv{2023}{Franetovic, G., \textbf{Bertero, A.} (2023). How do people understand inequality in Chile? A study through attitude network analysis. \href{https://doi.org/10.47909/awari.42}{\venue{AWARI}}, 4, 1–21.}
 
 \cv{2023}{\textbf{Bertero, A.}, Scaduto, G. (2023). A midsummer night’s dream: political communication during the Italian 2022 electoral campaign. \href{https://doi.org/10.36253/qoe-14224}{\venue{Italian Journal of Electoral Studies}}, 86(1), 13–28.}
+
+\subsection{Preprints}
+
+\cv{2026}{Marolla, F., \textbf{Bertero, A.}, Vezzoni, C. (2026). The unequal toll of loneliness on electoral participation: longitudinal evidence from the Netherlands. \href{\urlLonelinessToll}{\venue{SocArXiv}}.}
 
 \subsection{Book chapters}
 

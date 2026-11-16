@@ -35,6 +35,7 @@ Within LONELY-EU, I investigate how loneliness and objective social isolation re
 Selected recent work
 ====================
 
+- **The Unequal Toll of Loneliness on Electoral Participation: Longitudinal Evidence from The Netherlands**, preprint on *SocArXiv* (2026), with Francesco Marolla and Cristiano Vezzoni. [Read the preprint](https://doi.org/10.31235/osf.io/45hxg_v1).
 - **Searching for the Core of Conspiracy Belief Systems: The Relationship Between Specific Beliefs and Generic Mentality**, in *European Journal of Social Psychology* (2026). [Read the article](https://doi.org/10.1002/ejsp.70122).
 - **Populist Attitudes, Ideology, and Climate Change Beliefs: A Comparative Analysis of Six European Countries**, in *SocietàMutamentoPolitica* (2026). [Read the article](https://doi.org/10.36253/smp-16840).
 - **Support for Populist Parties and Climate Change Attitudes: Evidence from Six Countries in the Aftermath of 2024 European Elections**, in *Conspiracism and Political Conflict* (Palgrave Macmillan, 2026). [Read the chapter](https://doi.org/10.1007/978-3-032-13933-7_7).
@@ -46,6 +47,7 @@ Latest updates
 - **November 2026:** Preregistered the AI pipeline that updates the EU Loneliness Explorer every year, and released its second edition: 359 European surveys that measure loneliness, every cell checked against its documentation. [Preregistration](https://doi.org/10.5281/zenodo.23887880), [code](https://github.com/arturobertero/LONELY-EU_D3.1).
 - **October 2026:** New article on the core of conspiracy belief systems, across three studies and 17 country samples, published open access in the *European Journal of Social Psychology*.
 - **October 2026:** Invited talk in Madrid, at the CSIC workshop on multidimensional clustering analysis for social categorization, presenting a practitioner's guide to statistical belief network modelling (with Philip Warncke and Mark Brandt).
+- **September 2026:** New preprint with Francesco Marolla and Cristiano Vezzoni on loneliness and voter turnout, from eleven waves of the Dutch LISS panel. [Read the preprint](https://doi.org/10.31235/osf.io/45hxg_v1).
 - **August 2026:** New comparative article on populist attitudes, ideology, and climate change beliefs published in *SocietàMutamentoPolitica*.
 - **July 2026:** New article on conspiracy theories and Italian vaccine hesitancy published in *Italian Political Science*.
 - **June 2026:** Book chapter on populist party support and climate change attitudes published in *Conspiracism and Political Conflict* (Palgrave Macmillan).
